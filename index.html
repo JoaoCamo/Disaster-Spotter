@@ -97,8 +97,9 @@
                     <div class="col-xl-6">
                         <h2 class="mb-4">Faça o download!</h2>
                         <div class="col-auto">
-                            <button class="btn btn-primary btn-lg" id="submitButton" type="submit" onclick="window.open('https://drive.google.com/drive/folders/16vxLaspBxGI6_xjiDocGC37vwB25hHZA?usp=sharing', '_blank')">Download</button>
-                        </div>
+                            <a id="apkDownloadLink" href="./Disaster_Spotter.apk" download style="display:none"></a>
+                            <button class="btn btn-primary btn-lg" id="apkDownloadButton" type="button" onclick="document.getElementById('apkDownloadLink').click()">Download APK</button>
+                        </div>                        
                     </div>
                 </div>
             </div>
